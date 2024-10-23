@@ -48,11 +48,6 @@ body {
 
 /* *MAIN */
 
-
-
-
-
-
 /* !Recientes */
 .recientes {
   /*  *MARGIN PROVISORIO, ES PARA PODER SEPARAR LAS SECTIONS, CUANDO HAGAS MAIN SACALO HEHEHEJEIGJALKASJD  */
@@ -81,4 +76,7 @@ body {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  background-color: #1d1b1b;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
