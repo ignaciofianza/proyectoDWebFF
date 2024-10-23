@@ -4,7 +4,40 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-    color: white;
+body {
+  background-color: black;
+  color: white;
+  font-family: Montserrat;
+}
+
+/* !Santy vos haces todo lo del main? porfiiiis uwuwuwuwuuwuwuuwuwuuwuwuwuuw */
+
+/* !Recientes */
+.recientes {
+  /*  *MARGIN PROVISORIO, ES PARA PODER SEPARAR LAS SECTIONS, CUANDO HAGAS MAIN SACALO HEHEHEJEIGJALKASJD  */
+  margin-top: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recientes__title{
+  font-size: 30px;
+}
+
+.recientes__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.recientes__container-card{
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
