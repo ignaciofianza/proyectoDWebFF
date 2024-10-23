@@ -31,3 +31,12 @@ body {
 }
 
 
+.logo__header {
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgb(163, 163, 163);
+}
+
+.logo__header-dropdown {
+    margin-left: 8px;
+}
