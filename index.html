@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
@@ -17,46 +17,162 @@
     />
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
+    <!-- ?CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ?Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- ?Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- !Title -->
     <title>F&F Automotive</title>
   </head>
   <body>
     <!-- !Header-->
     <header class="header"></header>
 
+    <!-- !Main -->
     <section class="main">
-      <h1 class="main__title"></h1>
+      <h1 class="main__title">F&F Automotive</h1>
       <h2 class="main__subtitle">
         Donde la elegancia encuentra el rendimiento
       </h2>
       <img class="main__image" src="./img/e39.jpg" alt="Background Car" />
     </section>
-    <section class="recientes"
+
+    <!-- !Recientes -->
+    <section class="recientes">
       <h2 class="recientes__title">Ingresos Recientes</h2>
       <div class="recientes__container">
+        <!-- !Recientes Card -->
         <div class="recientes__container-card">
-            <h3 class="recientes__container-card-title">2012 BMW M3 E92</h3>
-            <img src="./img/" alt="2012 BMW M3 E92 Blanco" class="recientes__container-card-img">
+          <h3 class="recientes__container-card-title">2012 BMW M3 E92</h3>
+          <img
+            src="./img/"
+            alt="2012 BMW M3 E92 Blanco"
+            class="recientes__container-card-img"
+          />
         </div>
+
+        <!-- !Recientes Card -->
         <div class="recientes__container-card">
-            <h3 class="recientes__container-card-title">1998 Chevrolet Corsa (Picadas)</h3>
-            <img src="./img/" alt="1998 Chevrolet Corsa (Picadas) Rojo" class="recientes__container-card-img">
+          <h3 class="recientes__container-card-title">
+            1998 Chevrolet Corsa (Picadas)
+          </h3>
+          <img
+            src="./img/"
+            alt="1998 Chevrolet Corsa (Picadas) Rojo"
+            class="recientes__container-card-img"
+          />
         </div>
+
+        <!-- !Recientes Card -->
         <div class="recientes__container-card">
-            <h3 class="recientes__container-card-title">(0KM) Mercedes-AMG C63 S E Performance</h3>
-            <img src="./img/" alt="Mercedes-AMG C63 S E Performance Gris" class="recientes__container-card-img">
+          <h3 class="recientes__container-card-title">
+            (0KM) Mercedes-AMG C63 S E Performance
+          </h3>
+          <img
+            src="./img/"
+            alt="Mercedes-AMG C63 S E Performance Gris"
+            class="recientes__container-card-img"
+          />
         </div>
       </div>
     </section>
+
+    <!-- !Categorias -->
     <section class="categorias">
       <h2 class="categorias__title">Categorías</h2>
       <div class="categorias__container">
+        <!-- !Categorias Card -->
         <div class="categorias__container-card">
-          <h3 class="categorias__container-card-title"></h3>
-          <img src="./img/" alt="" class="categorias__container-card-img">
+          <h3 class="categorias__container-card-title">Nuevos</h3>
+          <img
+            src="./img/"
+            alt="Auto nuevo"
+            class="categorias__container-card-img"
+          />
+          <a href="./pages/categorias/nuevos.html">Ir ahí</a>
         </div>
-
+        <!-- !Categorias Card -->
+        <div class="categorias__container-card">
+          <h3 class="categorias__container-card-title">Usados</h3>
+          <img
+            src="./img/"
+            alt="Auto usado"
+            class="categorias__container-card-img"
+          />
+          <a href="./pages/categorias/usados.html">Ir ahí</a>
+        </div>
+        <!-- !Categorias Card -->
+        <div class="categorias__container-card">
+          <h3 class="categorias__container-card-title">Deportivos</h3>
+          <img
+            src="./img/"
+            alt="Auto deportivo"
+            class="categorias__container-card-img"
+          />
+          <a href="./pages/categorias/deportivos.html">Ir ahí</a>
+        </div>
+        <!-- !Categorias Card -->
+        <div class="categorias__container-card">
+          <h3 class="categorias__container-card-title">SUV y 4x4</h3>
+          <img
+            src="./img/"
+            alt="Auto SUV"
+            class="categorias__container-card-img"
+          />
+          <a href="./pages/categorias/suv-4x4.html">Ir ahí</a>
+        </div>
+        <!-- !Categorias Card -->
+        <div class="categorias__container-card">
+          <h3 class="categorias__container-card-title">Pick-ups</h3>
+          <img
+            src="./img/"
+            alt="Camioneta Pick-up"
+            class="categorias__container-card-img"
+          />
+          <a href="./pages/categorias/pick-ups.html">Ir ahí</a>
+        </div>
+        <!-- !Categorias Card -->
+        <div class="categorias__container-card">
+          <h3 class="categorias__container-card-title">Exclusivos</h3>
+          <img
+            src="./img/"
+            alt="Auto exclusivo"
+            class="categorias__container-card-img"
+          />
+          <a href="./pages/categorias/exclusivos.html">Ir ahí</a>
+        </div>
       </div>
     </section>
+
+    <!-- !Footer -->
+    <footer class="footer">
+      <img src="./img/" alt="logo automotive" class="footer__image" />
+      <div class="footer__socials">
+        <!-- !Footer Redes -->
+        <a href="http://www.instagram.com/" class="footer__socials-link"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a href="http://www.x.com/" class="footer__socials-link"
+          ><i class="bi bi-twitter-x"></i
+        ></a>
+        <a href="http://www.youtube.com/" class="footer__socials-link"
+          ><i class="bi bi-youtube"></i
+        ></a>
+        <a href="http://www.whatsapp.com/" class="footer__socials-link"
+          ><i class="bi bi-whatsapp"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
-``
