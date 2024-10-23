@@ -7,45 +7,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Automobiles Belloni ofrece vehículos nuevos y usados de alta calidad. Nos especializamos en brindar un servicio personalizado, ayudando a nuestros clientes a encontrar el auto ideal al mejor precio."
-    />
+      content="Automobiles Belloni ofrece vehículos nuevos y usados de alta calidad. Nos especializamos en brindar un servicio personalizado, ayudando a nuestros clientes a encontrar el auto ideal al mejor precio." />
     <meta name="author" content="Ignacio Fianza, Santiago Figueroa" />
 
     <meta
       name="keywords"
-      content="automóviles, vehículos, autos usados, autos nuevos, Automobiles Belloni, venta de autos, coches de segunda mano, concesionaria, comprar auto, autos en venta"
-    />
+      content="automóviles, vehículos, autos usados, autos nuevos, Automobiles Belloni, venta de autos, coches de segunda mano, concesionaria, comprar auto, autos en venta" />
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
-    <!-- ?CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- ?Bootstrap Icons -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- ?Bootstrap Icons -->
+
+    <!-- ?Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+    <!-- ?Bootstrap -->
 
     <!-- ?Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
 
+    <!-- ?CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css">
     <!-- !Title -->
     <title>F&F Automotive</title>
   </head>
   <body>
+
+
     <!-- !Header-->
-    <header class="header"></header>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt
+              style="width: 150px;"></a>
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"
+            id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"
+                  href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Información</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"
+                  role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Categorías
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark dropdown-menu-black">
+                  <li><a class="dropdown-item"
+                      href="#">Deportivos
+                    </a></li>
+                  <li><a class="dropdown-item"
+                      href="#">Exclusivos</a></li>
+
+                  <li><a class="dropdown-item"
+                      href="#">Nuevos
+                    </a></li>
+
+                  <li><a class="dropdown-item"
+                      href="#">Usados
+                    </a></li>
+
+                  <li><a class="dropdown-item"
+                      href="#">Pick-Up
+                    </a></li>
+
+                  <li><a class="dropdown-item"
+                      href="#">SUV
+                    </a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- !Header -->
 
     <!-- !Main -->
     <section class="main">
-      <h1 class="main__title">F&F Automotive</h1>
-      <h2 class="main__subtitle">
-        Donde la elegancia encuentra el rendimiento
-      </h2>
-      <!-- <img class="main__image" src="./img/e39.jpg" alt="Background Car" /> -->
+      <div class="main__container-text">
+        <h1 class="main__title">F&F Automotive</h1>
+        <h2 class="main__subtitle">
+          Donde la elegancia encuentra el rendimiento
+        </h2>
+      </div>
+      <img class="main__image" src="./img/e39.jpg" alt="Background Car" />
     </section>
 
     <!-- !Recientes -->
@@ -58,8 +139,7 @@
           <img
             src="./img/"
             alt="2012 BMW M3 E92 Blanco"
-            class="recientes__container-card-img"
-          />
+            class="recientes__container-card-img" />
         </div>
 
         <!-- !Recientes Card -->
@@ -70,8 +150,7 @@
           <img
             src="./img/"
             alt="1998 Chevrolet Corsa (Picadas) Rojo"
-            class="recientes__container-card-img"
-          />
+            class="recientes__container-card-img" />
         </div>
 
         <!-- !Recientes Card -->
@@ -82,8 +161,7 @@
           <img
             src="./img/"
             alt="Mercedes-AMG C63 S E Performance Gris"
-            class="recientes__container-card-img"
-          />
+            class="recientes__container-card-img" />
         </div>
       </div>
     </section>
@@ -98,8 +176,7 @@
           <img
             src="./img/"
             alt="Auto nuevo"
-            class="categorias__container-card-img"
-          />
+            class="categorias__container-card-img" />
           <a href="./pages/categorias/nuevos.html">Ir ahí</a>
         </div>
         <!-- !Categorias Card -->
@@ -108,8 +185,7 @@
           <img
             src="./img/"
             alt="Auto usado"
-            class="categorias__container-card-img"
-          />
+            class="categorias__container-card-img" />
           <a href="./pages/categorias/usados.html">Ir ahí</a>
         </div>
         <!-- !Categorias Card -->
@@ -118,8 +194,7 @@
           <img
             src="./img/"
             alt="Auto deportivo"
-            class="categorias__container-card-img"
-          />
+            class="categorias__container-card-img" />
           <a href="./pages/categorias/deportivos.html">Ir ahí</a>
         </div>
         <!-- !Categorias Card -->
@@ -128,8 +203,7 @@
           <img
             src="./img/"
             alt="Auto SUV"
-            class="categorias__container-card-img"
-          />
+            class="categorias__container-card-img" />
           <a href="./pages/categorias/suv-4x4.html">Ir ahí</a>
         </div>
         <!-- !Categorias Card -->
@@ -138,8 +212,7 @@
           <img
             src="./img/"
             alt="Camioneta Pick-up"
-            class="categorias__container-card-img"
-          />
+            class="categorias__container-card-img" />
           <a href="./pages/categorias/pick-ups.html">Ir ahí</a>
         </div>
         <!-- !Categorias Card -->
@@ -148,8 +221,7 @@
           <img
             src="./img/"
             alt="Auto exclusivo"
-            class="categorias__container-card-img"
-          />
+            class="categorias__container-card-img" />
           <a href="./pages/categorias/exclusivos.html">Ir ahí</a>
         </div>
       </div>
@@ -160,18 +232,14 @@
       <img src="./img/" alt="logo automotive" class="footer__image" />
       <div class="footer__socials">
         <!-- !Footer Redes -->
-        <a href="http://www.instagram.com/" class="footer__socials-link"
-          ><i class="bi bi-instagram"></i
-        ></a>
-        <a href="http://www.x.com/" class="footer__socials-link"
-          ><i class="bi bi-twitter-x"></i
-        ></a>
-        <a href="http://www.youtube.com/" class="footer__socials-link"
-          ><i class="bi bi-youtube"></i
-        ></a>
-        <a href="http://www.whatsapp.com/" class="footer__socials-link"
-          ><i class="bi bi-whatsapp"></i
-        ></a>
+        <a href="http://www.instagram.com/" class="footer__socials-link"><i
+            class="bi bi-instagram"></i></a>
+        <a href="http://www.x.com/" class="footer__socials-link"><i
+            class="bi bi-twitter-x"></i></a>
+        <a href="http://www.youtube.com/" class="footer__socials-link"><i
+            class="bi bi-youtube"></i></a>
+        <a href="http://www.whatsapp.com/" class="footer__socials-link"><i
+            class="bi bi-whatsapp"></i></a>
       </div>
     </footer>
   </body>

@@ -12,6 +12,47 @@ body {
 
 /* !Santy vos haces todo lo del main? porfiiiis uwuwuwuwuuwuwuuwuwuuwuwuwuuw */
 
+/* Santy responde: sabes que ni ganas pero bueno ya lo hago */
+/* *MAIN */
+.main {
+  margin-top: 70px;
+}
+
+.main__container-text {
+  padding: 10px;
+  text-align: center;
+  user-select: none;
+}
+
+.main__title {
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  z-index: 9;
+}
+
+.main__subtitle {
+  margin-top: -10px;
+  font-weight: 200;
+  font-size: 15px;
+  z-index: 9;
+  position: relative;
+}
+
+.main__image {
+  width: 100%;
+  position: absolute;
+  margin-top: -70px;
+  z-index: 2;
+}
+
+/* *MAIN */
+
+
+
+
+
+
 /* !Recientes */
 .recientes {
   /*  *MARGIN PROVISORIO, ES PARA PODER SEPARAR LAS SECTIONS, CUANDO HAGAS MAIN SACALO HEHEHEJEIGJALKASJD  */
@@ -23,18 +64,18 @@ body {
   justify-content: center;
 }
 
-.recientes__title{
+.recientes__title {
   font-size: 30px;
 }
 
-.recientes__container{
+.recientes__container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 5px;
 }
 
-.recientes__container-card{
+.recientes__container-card {
   border: 1px solid blue;
   display: flex;
   flex-direction: column;
