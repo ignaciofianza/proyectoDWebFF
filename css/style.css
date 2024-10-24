@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+*::selection{
+  background-color: #ffffff94;
+  color: #2e2e2e;
+}
+
 body {
   background-color: black;
   color: white;
   font-family: Montserrat;
 }
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
 
@@ -130,9 +135,9 @@ body {
 }
 
 .categorias__title {
-  padding-left: 3px;
+  padding-left: 5px;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
@@ -163,24 +168,31 @@ body {
 
 .footer {
   margin-bottom: 50px;
-  height: 20vh;
+  padding: 20px 0; /* Añadido padding para darle un poco de espacio interno */
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: black; /* Asegúrate de que el fondo sea consistente */
 }
 
 .footer__image {
-  max-width: 25%;
+  max-width: 100px; /* Tamaño más manejable para pantallas pequeñas */
 }
 
 .footer__socials {
-  width: 40%;
-  height: auto;
+  width: 80%; /* Ajustado para pantallas más pequeñas */
+  max-width: 400px; /* Un límite para pantallas grandes */
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around; /* Asegura la distribución equitativa de los iconos */
+  margin-top: 20px; /* Añade un margen para que no esté pegado a la imagen */
+}
+
+.footer__socials-link {
+  color: white;
+  font-size: 20px;
 }
 
 .footer__socials-link {
@@ -189,12 +201,11 @@ body {
 }
 
 @media (min-width: 768px) {
-
-  .logo__header{
+  .logo__header {
     display: none;
   }
 
-  .main__container-text{
+  .main__container-text {
     width: 90%;
   }
   .main__title {
@@ -204,26 +215,98 @@ body {
     font-size: 30px;
   }
 
-  .main__image{
+  .main__image {
     max-height: 80vh;
   }
 
-  .recientes__title{
-    font-size: 35px
+  .recientes__title {
+    font-size: 35px;
   }
-  .recientes__container{
+  .recientes__container {
     width: 70%;
   }
 
-  .recientes__container-card{
+  .recientes__container-card {
     margin-bottom: 30px;
   }
 
-  .footer{
-    margin-bottom: 120px;
+  .categorias__title {
+    font-size: 35px;
+  }
+
+  .footer__image {
+    max-width: 150px;
+  }
+
+  .footer__socials {
+    width: 60%; /* Ajusta el ancho para pantallas medianas */
   }
 
   .footer__socials-link{
-    font-size: 30px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .recientes {
+    align-items: flex-start;
+  }
+
+  .recientes__title {
+    margin-left: 30px;
+  }
+
+  .recientes__container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .recientes__container-card {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .recientes__container-card-title {
+    font-size: 15px;
+  }
+
+  .recientes__container-card-img {
+    width: 100%;
+  }
+
+  .categorias {
+    justify-self: center;
+    width: 90%;
+  }
+
+  .categorias__container {
+    width: 90%;
+    gap: 20px 50px;
+    margin-top: 30px;
+  }
+
+  .categorias__container-link {
+    height: 50px;
+    transition: all 0.2s ease-out;
+  }
+
+  .categorias__container-link:hover {
+    background-color: #333131;
+    transform: scale(1.01);
+  }
+
+  .footer__socials {
+    width: 50%;
+  }
+
+  .footer__socials-link {
+    transition: all 0.3s ease-out;
+  }
+
+  .footer__socials-link:hover {
+    transform: scale(1.2);
   }
 }
