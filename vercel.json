@@ -1,15 +1,15 @@
 {
   "rewrites": [
     {
-      "source": "/pages/categorias/:slug",
-      "destination": "/categorias/:slug"
+      "source": "./pages/categorias/:path.html",
+      "destination": "/categorias/:path"
     },
     {
-      "source": "/pages/otros/:slug",
-      "destination": "/:slug"
+      "source": "./pages/otros/:path.html",
+      "destination": "/:path"
     },
     {
-      "source": "/index.html",
+      "source": "./index.html",
       "destination": "/"
     }
   ]
