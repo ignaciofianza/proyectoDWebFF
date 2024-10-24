@@ -1,4 +1,22 @@
 {
+  "redirects": [
+    {
+      "source": "/pages/categorias/:path.html",
+      "destination": "/categorias/:path",
+      "permanent": true
+    },
+    {
+      "source": "/pages/otros/:path.html",
+      "destination": "/:path",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+
   "rewrites": [
     {
       "source": "./pages/categorias/:path.html",
