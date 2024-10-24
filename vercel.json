@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/pages/categorias/:slug",
+      "destination": "/categorias/:slug"
+    },
+    {
+      "source": "/pages/otros/:slug",
+      "destination": "/:slug"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/"
+    }
+  ]
+}

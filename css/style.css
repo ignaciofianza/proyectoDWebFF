@@ -10,10 +10,6 @@ body {
   font-family: Montserrat;
 }
 
-.header {
-  /* no puse nada por que soy PANCHO */
-}
-
 .navbar-black {
   background-color: black;
 }
@@ -185,4 +181,13 @@ body {
 .footer__socials-link {
   color: white;
   font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .main__title {
+    font-size: 50px;
+  }
+  .main__subtitle {
+    font-size: 20px;
+  }
 }
