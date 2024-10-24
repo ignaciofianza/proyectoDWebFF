@@ -19,16 +19,16 @@
 
   "rewrites": [
     {
-      "source": "/pages/categorias/:path.html",
-      "destination": "/categorias/:path"
+      "source": "/categorias/:path",
+      "destination": "/pages/categorias/:path.html"
     },
     {
-      "source": "/pages/otros/:path.html",
-      "destination": "/:path"
+      "source": "/:path",
+      "destination": "/pages/otros/:path.html"
     },
     {
-      "source": "/index.html",
-      "destination": "/"
+      "source": "/",
+      "destination": "/index.html"
     }
   ]
 }
