@@ -12,6 +12,7 @@ body {
 
 /* !Santy vos haces todo lo del main? porfiiiis */
 /* ?Santy responde: sabes que ni ganas pero bueno ya lo hago */
+/* *Nacho dice: Lo hice de nuevo pq no me convencia del todo, quedó mas simple */
 
 /* *MAIN */
 .main {
@@ -23,19 +24,19 @@ body {
   height: 100dvh;
 }
 
-.main__title{
+.main__title {
   font-size: 30px;
   text-align: center;
   font-weight: 700;
 }
 
-.main__subtitle{
+.main__subtitle {
   font-size: 15px;
   font-weight: 200;
   text-align: center;
 }
 
-.main__image{
+.main__image {
   max-width: 100%;
 }
 
@@ -74,12 +75,79 @@ body {
   margin-bottom: 10px;
 }
 
-.recientes__container-card-title{
+.recientes__container-card-title {
   padding: 5px;
   font-size: 20px;
 }
 
-.recientes__container-card-img{
+.recientes__container-card-img {
   border-radius: 0px 0px 3px 0px;
   max-width: 100%;
+}
+
+.categorias {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categorias__title {
+  padding-left: 3px;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.categorias__container {
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.categorias__container-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #080808;
+  width: 35%;
+  height: 35px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer{
+  margin-bottom: 50px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__image{
+  max-width: 25%;
+}
+
+.footer__socials{
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__socials-link{
+  color: white;
+  font-size: 20px;
 }
