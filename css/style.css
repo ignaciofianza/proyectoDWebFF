@@ -137,7 +137,7 @@ body {
 .categorias__title {
   padding-left: 5px;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
@@ -160,9 +160,8 @@ body {
   background-color: #202020;
   width: 35%;
   height: 35px;
-  border-radius: 3px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
 }
 
