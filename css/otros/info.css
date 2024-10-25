@@ -1,0 +1,21 @@
+.mainInfo {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainInfo__container-text h1 {
+    font-weight: 700;
+}
+
+.mainInfo__container-text h2 {
+    font-size: 13px;
+    text-align: end;
+    margin-top: -13px;
+}
+
+
+.preguntas {
+    padding: 35px;
+}
