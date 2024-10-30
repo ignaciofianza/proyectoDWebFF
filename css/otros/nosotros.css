@@ -1,18 +1,20 @@
 .sobre-nosotros {
-  margin-top: 40px;
-  justify-self: center;
-  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px auto 50px auto; /* Centra horizontalmente */
   border-radius: 8px;
   padding: 15px;
   width: 90%;
   background-color: #141414a9;
-  margin-bottom: 50px;
 }
 
 .sobre-nosotros__container {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .sobre-nosotros__title {
@@ -20,26 +22,33 @@
   margin-bottom: 10px;
 }
 
+.title__text{
+  text-align: center;
+}
+
 .sobre-nosotros__subtitle {
   text-decoration: underline;
+  align-self: flex-start;
+  text-align: center; /* Centra el texto */
 }
 
 .sobre-nosotros__text {
   margin-bottom: 20px;
+  
+  align-self: s; /* Centra el texto */
+}
+
+.sobre-nosotros__value-item {
+  margin-bottom: 10px;
 }
 
 @media (min-width: 1024px) {
   .sobre-nosotros {
-    background-color: transparent;
     width: 70%;
+    background-color: transparent;
   }
 
   .sobre-nosotros__title {
     align-self: center;
-  }
-
-  .title__text {
-    align-self: center;
-    text-align: center;
   }
 }
