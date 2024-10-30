@@ -1,97 +1,87 @@
 .mainInfo {
-    margin-top: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainInfo__container-text h1 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .mainInfo__container-text h2 {
-    font-size: 13px;
-    text-align: end;
-    margin-top: -13px;
+  font-size: 13px;
+  text-align: end;
+  margin-top: -13px;
 }
-
 
 .preguntas {
-    padding: 35px;
+  padding: 35px;
 }
-
-
 
 .accordion-button::after {
-    filter: invert(1);
+  filter: invert(1);
 }
-
 
 .contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 120px;
 }
-
 
 .contacto__container-text h3 {
-    margin-bottom: 15px;
-}
-
-.contacto__container-btn {
+  margin-bottom: 15px;
 }
 
 .contacto__btn {
-    width: 190px;
-    height: 45px;
-    border: none;
+  width: 190px;
+  height: 45px;
+  border: none;
 }
 
 .contacto__btn-a {
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+
+.mainInfo__container-text h1,
+.mainInfo__container-text h2,
+.mainInfo__container-text h3,
+.contacto__btn-a,
+.contacto__container-text h3 {
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 @media (min-width: 768px) {
-    /* no le hago nada para tablet por que esta perfecto PAANCHO*/
-    /* no le hago nada para tablet por que esta perfecto PAANCHO*/
-    /* no le hago nada para tablet por que esta perfecto PAANCHO*/
-    /* no le hago nada para tablet por que esta perfecto PAANCHO*/
-
-
-
-
+  /* no le hago nada para tablet por que esta perfecto PAANCHO*/
+  /* no le hago nada para tablet por que esta perfecto PAANCHO*/
+  /* no le hago nada para tablet por que esta perfecto PAANCHO*/
+  /* no le hago nada para tablet por que esta perfecto PAANCHO*/
+  /* ?Chequeado? */
 }
 
-
 @media (min-width: 1024px) {
-    .preguntas {
-        padding: 7%;
-    }
+  .preguntas {
+    padding: 7%;
+  }
 
-    .contacto {
-    }
-    
-    
-    .contacto__container-text h3 {
-        font-size: 35px;
-    }
-    
-    .contacto__btn {
-        transition: all 1s;
-    }
-    .contacto__btn:hover {
-        box-shadow: 0px 0px 10px white;
-        transition: all .3s;
-    }
+  .contacto__container-text h3 {
+    font-size: 35px;
+  }
 
-
+  .contacto__btn {
+    transition: all 0.2s ease-in-out;
+  }
+  .contacto__btn:hover {
+    box-shadow: 0px 0px 10px white;
+  }
 }

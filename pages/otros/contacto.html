@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-UY">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -48,16 +48,17 @@
 
     <!-- ?CSS -->
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/otros/info.css" />
     <link rel="stylesheet" href="/css/otros/contacto.css" />
+    <!-- ?CSS -->
 
     <!-- *Icono -->
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
     <!-- !Title -->
-    <title>Inicio | F&F AUTOMOTIVE</title>
+    <title>CONTACTO | FF AUTOMOTIVE</title>
   </head>
   <body>
-    <!-- !Header-->
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-dark navbar-black">
         <div class="container-fluid">
@@ -179,31 +180,74 @@
     </header>
     <!-- !Header -->
 
-    <!-- !Main -->
-    <section class="main">
-      <div class="main__container-text">
-        <h1 class="main__title">F&F AUTOMOTIVE</h1>
-        <h2 class="main__subtitle">
-          Donde la elegancia encuentra el rendimiento
-        </h2>
+    <main class="mainInfo">
+      <div class="mainInfo__container-text">
+        <h1>CONTÁCTANOS</h1>
+        <h2>FF AUTOMOTIVE</h2>
       </div>
-      <img class="main__image" src="/img/index/e39.jpg" alt="Background Car" />
-    </section>
-    <!-- !Main -->
+    </main>
 
-    <!-- !Categorias -->
-    <section class="categorias">
-      <h2 class="categorias__title">CATEGORÍAS</h2>
-      <div class="categorias__container">
-        <a href="#" class="categorias__container-link">NUEVOS</a>
-        <a href="#" class="categorias__container-link">USADOS</a>
-        <a href="#" class="categorias__container-link">SUVs Y 4x4</a>
-        <a href="#" class="categorias__container-link">PICK-UPS</a>
-        <a href="#" class="categorias__container-link">DEPORTIVOS</a>
-        <a href="#" class="categorias__container-link">EXCLUSIVOS</a>
-      </div>
+    <section class="contact">
+      <form class="contact__form">
+        <div class="contact__field">
+          <label for="name" class="contact__label">Nombre</label>
+          <input
+            type="text"
+            id="name"
+            class="contact__input"
+            name="name"
+            required
+          />
+        </div>
+
+        <div class="contact__field">
+          <label for="email" class="contact__label">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="contact__input"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="contact__field">
+          <label for="phone" class="contact__label">Teléfono</label>
+          <input
+            type="tel"
+            id="phone"
+            class="contact__input"
+            name="phone"
+            required
+          />
+        </div>
+
+        <div class="contact__field">
+          <label for="message" class="contact__label">Mensaje</label>
+          <textarea
+            id="message"
+            class="contact__input contact__input--textarea"
+            name="message"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="contact__submit">Enviar</button>
+      </form>
     </section>
-    <!-- !Recientes -->
+
+    <section class="mapcontainer">
+      <iframe
+        class="mapcontainer__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.6238904530946!2d-56.1792521251474!3d-34.86567667137838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80743dd01707%3A0x486b5d99a49f8f1b!2sInstituto%20Superior%20Brazo%20Oriental!5e0!3m2!1sen!2suy!4v1730287285911!5m2!1sen!2suy"
+        width="600"
+        height="450"
+        style="border: 100"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
 
     <!-- !Footer -->
     <footer class="footer">

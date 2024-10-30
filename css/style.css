@@ -4,13 +4,25 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: #696969;
+  color: black;
+}
+
 body {
   background-color: black;
   color: white;
   font-family: Montserrat;
 }
-.navbar-toggler {
+.navbar-toggler,
+.navbar-toggler:focus {
+  outline: none;
   border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler::selection {
+  border: none !important;
 }
 
 .navbar-black {
@@ -46,7 +58,7 @@ body {
 
 /* !Santy vos haces todo lo del main? porfiiiis */
 /* ?Santy responde: sabes que ni ganas pero bueno ya lo hago */
-/* *Nacho dice: Lo hice de nuevo pq no me convencia del todo, quedó mas simple */
+/* *Nacho aclara: Lo hice de nuevo pq no me convencia del todo, quedó mas simple */
 
 /* *MAIN */
 .main {
@@ -205,7 +217,8 @@ body {
   -webkit-user-drag: none;
 }
 
-.footer__image, .main__image{
+.footer__image,
+.main__image {
   pointer-events: none;
 }
 
