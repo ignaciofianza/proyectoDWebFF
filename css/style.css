@@ -122,8 +122,14 @@ body {
   margin-bottom: 20px;
 }
 
+.recientes__container-card{
+  text-decoration: none;
+}
+
 .recientes__container-card-title {
-  padding: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px 5px 10px;
   font-size: 20px;
   font-weight: 500;
 }
@@ -289,7 +295,14 @@ body {
     width: 30%;
     align-items: center;
     justify-content: center;
+    transition: all .3s ease-in-out;
   }
+
+  .recientes__container-card:hover{
+    transform: scale(1.012);
+  }
+
+  .recientes__container-card
 
   .recientes__container-card-title {
     font-size: 15px;
