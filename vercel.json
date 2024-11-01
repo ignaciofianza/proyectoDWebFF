@@ -37,8 +37,7 @@
     },
     {
       "source": "/pages/autos/:path",
-      "destination": "/autos/:path.html",
-      "permanent": true
+      "destination": "/autos/:path.html"
     }
   ]
 }
