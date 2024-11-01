@@ -7,11 +7,11 @@
   }
   
   .categoria__auto {
-    flex: 1 1 100%; /* 1 auto por fila en pantallas pequeñas */
+    flex: 1 1 100%; 
     box-shadow: 0 2px 10px #0000001a;
     border-radius: 8px;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
   }
   
   .categoria__auto:hover {
@@ -36,19 +36,18 @@
   
   .categoria__auto-precio {
     font-size: 1em;
-    color: #5ebc67; /* Color verde */
+    color: #5ebc67;
     margin-bottom: 10px;
   }
   
-  /* Media queries para pantallas más grandes */
   @media (min-width: 768px) {
     .categoria__auto {
-      flex: 1 1 calc(50% - 20px); /* 2 autos por fila en tabletas */
+      flex: 1 1 calc(50% - 20px); /* 2 autos por fila a partir de 768 */
     }
   }
   
   @media (min-width: 1024px) {
     .categoria__auto {
-      flex: 1 1 calc(33.333% - 20px); /* 3 autos por fila en pantallas grandes */
+      flex: 1 1 calc(33.333% - 20px); /* 3 autos por fila a partir de 1024 */
     }
   }
