@@ -49,14 +49,14 @@
     <!-- ?CSS -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/otros/info.css" />
-    <link rel="stylesheet" href="/css/autos/construccion.css" />
+    <link rel="stylesheet" href="/css/autos/auto.css" />
     <!-- ?CSS -->
 
     <!-- *Icono -->
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
     <!-- !Title -->
-    <title>En construcción | FF AUTOMOTIVE</title>
+    <title>Mercedes-AMG C63S | FF AUTOMOTIVE</title>
   </head>
   <body>
     <header class="header">
@@ -182,21 +182,177 @@
 
     <main class="mainInfo">
       <div class="mainInfo__container-text">
-        <h1>EN CONSTRUCCIÓN</h1>
-        <h2>FF AUTOMOTIVE</h2>
+        <h1>AMG C63S</h1>
+        <h2>Mercedes-AMG (0KM)</h2>
       </div>
     </main>
 
-    <section class="construccion">
-      <h3 class="construccion__title">Disculpá las molestias</h3>
-      <p class="construccion__text">
-        Este auto todavía no tiene página propia, esperá unos días a que sea
-        ingresado al sistema, ¡gracias!
-      </p>
-      <button class="construccion__button" onclick="history.back()">
-        Volver atrás
-      </button>
-      <img class="construccion__img" src="/img/autos/construccion/trabajando.gif" alt="Hombre trabajando">
+    <section class="auto">
+      <!-- Descripción -->
+      <div class="auto__description">
+        <h3 class="auto__description-title">DESCRIPCIÓN</h3>
+        <p class="auto__description-text">
+          El Mercedes-AMG C63 S es un sedán deportivo que combina un potente
+          motor V8 biturbo con una estética impresionante y tecnología avanzada.
+          Este modelo, parte de la familia C-Class, es conocido por su manejo
+          ágil y su aceleración brutal, lo que lo convierte en una opción
+          deseable para los amantes de la velocidad y el lujo. Con un diseño
+          agresivo y un interior elegante, el C63 S ofrece una experiencia de
+          conducción emocionante y confortable.
+        </p>
+      </div>
+
+      <!-- Tabla de especificaciones -->
+      <div class="auto__specs">
+        <h2 class="auto__specs-title">ESPECIFICACIONES</h2>
+        <table class="auto__specs-table">
+          <thead class="auto__specs-header">
+            <tr class="auto__specs-row">
+              <th class="auto__specs-header-cell">Especificación</th>
+              <th class="auto__specs-header-cell">Detalle</th>
+            </tr>
+          </thead>
+          <tbody class="auto__specs-body">
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Motor</td>
+              <td class="auto__specs-cell">V8 4.0L biturbo</td>
+            </tr>
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Potencia</td>
+              <td class="auto__specs-cell">503 HP</td>
+            </tr>
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Transmisión</td>
+              <td class="auto__specs-cell">
+                Automática de 9 velocidades (AMG Speedshift)
+              </td>
+            </tr>
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Aceleración</td>
+              <td class="auto__specs-cell">3.9 s (0-100 km/h)</td>
+            </tr>
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Vel. Máxima</td>
+              <td class="auto__specs-cell">
+                290 km/h (limitada electrónicamente)
+              </td>
+            </tr>
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Consumo</td>
+              <td class="auto__specs-cell">10.5 Km/L (combinado)</td>
+            </tr>
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Tracción</td>
+              <td class="auto__specs-cell">Trasera (RWD)</td>
+            </tr>
+            <tr class="auto__specs-row">
+              <td class="auto__specs-cell">Peso</td>
+              <td class="auto__specs-cell">1,825 kg</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Información adicional -->
+      <div class="auto__additional-info">
+        <h3 class="auto__additional-info-title">IMPORTANTE</h3>
+        <p class="auto__additional-info-text">
+          <strong>Precio:</strong> USD 197.500
+        </p>
+        <p class="auto__additional-info-text">
+          <strong>Ubicación:</strong> Montevideo, Uruguay
+        </p>
+      </div>
+
+      <!-- Enlaces relevantes -->
+      <div class="auto__links">
+        <h3 class="auto__links-title">ENLACES</h3>
+        <ul class="auto__links-list">
+          <li class="auto__links-item">
+            <a
+              href="https://www.mercedes-amg.com/en/home/vehicles/c-class/sedan.html"
+              target="_blank"
+              class="auto__link"
+              >Mercedes-AMG C63 S - Página oficial</a
+            >
+          </li>
+          <li class="auto__links-item">
+            <a
+              href="https://www.autoblog.com.uy/2023/06/lanzamiento-mercedes-amg-c-63-s-e.html"
+              target="_blank"
+              class="auto__link"
+              >Autoblog Uruguay - Mercedes-AMG C63S</a
+            >
+          </li>
+          <li class="auto__links-item">
+            <a
+              href="https://www.caranddriver.com/reviews/a46883208/2024-mercedes-amg-c63-s-e-performance-test/"
+              target="_blank"
+              class="auto__link"
+              >Reseña - Car and Driver</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="auto__galeria">
+        <h3 class="auto__galeria-title">GALERÍA</h3>
+        <div class="auto__galeria-container">
+          <div
+            id="carouselExampleRide"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/img/autos/deportivos/c63s/C63S1.jpg"
+                  class="d-block w-100"
+                  alt="Mercedes-AMG C63 S"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/autos/deportivos/c63s/C63S2.jpg"
+                  class="d-block w-100"
+                  alt="Mercedes-AMG C63 S"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/autos/deportivos/c63s/C63S3.jpg"
+                  class="d-block w-100"
+                  alt="Mercedes-AMG C63 S"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- !Categorias -->

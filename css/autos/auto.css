@@ -29,8 +29,32 @@
   margin-bottom: 10px;
 }
 
-.auto__specs-table *{
-  border: 0.5px solid #303030;
+.auto__specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.auto__specs-table * {
+  border: 1px solid white;
+}
+
+.auto__specs-header {
+  background-color: #ffffff18;
+  color: #ffffff;
+}
+
+.auto__specs-header-cell {
+  padding: 12px;
+  text-align: left;
+}
+
+.auto__specs-body {
+  background-color: transparent;
+}
+
+.auto__specs-cell {
+  padding: 10px;
 }
 
 .auto__additional-info {
@@ -70,3 +94,38 @@
   font-weight: 700;
   font-size: 25px;
 }
+
+*{
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+@media (min-width: 768px) {
+  .auto__description,
+  .auto__specs,
+  .auto__additional-info,
+  .auto__links,
+  .auto__galeria {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .auto__description,
+  .auto__specs,
+  .auto__additional-info,
+  .auto__links,
+  .auto__galeria {
+    width: 60%;
+    height: auto;
+  }
+
+  .auto__link{
+    transition: all .18s ease-in-out;
+  }
+
+  .auto__link:hover{
+    color: rgb(87, 87, 87);
+  }
+}
+
