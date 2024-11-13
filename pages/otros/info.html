@@ -1,69 +1,72 @@
 <!DOCTYPE html>
 <html lang="es-UY">
   <head>
+    <!-- Metadatos básicos -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Descripción del sitio -->
     <meta
       name="description"
       content="F&F automotive ofrece vehículos nuevos y usados de alta calidad. Nos especializamos en brindar un servicio personalizado, ayudando a nuestros clientes a encontrar el auto ideal al mejor precio."
     />
     <meta name="author" content="Ignacio Fianza, Santiago Figueroa" />
-
+    
+    <!-- Palabras clave para SEO -->
     <meta
       name="keywords"
       content="automóviles, vehículos, autos usados, autos nuevos, F&F Automotive, venta de autos, autos de segunda mano, concesionaria, comprar auto, autos en venta"
     />
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
-
-    <!-- ?Bootstrap Icons -->
+    
+    <!-- Enlace a Bootstrap Icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <!-- ?Bootstrap Icons -->
-
-    <!-- ?Bootstrap -->
+    
+    <!-- Enlace a Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- Enlace a Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
-    <!-- ?Bootstrap -->
-
-    <!-- ?Font -->
+    
+    <!-- Enlace a Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-
-    <!-- ?CSS -->
+    
+    <!-- Enlace a CSS personalizado -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/otros/info.css" />
-    <!-- ?CSS -->
-
-    <!-- *Icono -->
+    
+    <!-- Icono del sitio -->
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-
-    <!-- !Title -->
+    
+    <!-- Título de la página -->
     <title>INFO | FF AUTOMOTIVE</title>
   </head>
   <body>
+    <!-- Header con navegación -->
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-dark navbar-black">
         <div class="container-fluid">
+          <!-- Logo -->
           <a class="navbar-brand" href="/index.html"
             ><img src="/img/logo.png" alt style="width: 150px"
           /></a>
+          <!-- Botón de menú para móviles -->
           <button
             class="navbar-toggler custom-toggler"
             type="button"
@@ -75,8 +78,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- Menú de navegación -->
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+              <!-- Enlace a la página de inicio -->
               <li class="nav-item">
                 <a
                   class="nav-link active"
@@ -85,22 +90,26 @@
                   >Inicio<i class="bi bi-house-door-fill logo__header"></i
                 ></a>
               </li>
+              <!-- Enlace a la página sobre nosotros -->
               <li class="nav-item">
                 <a class="nav-link" href="/pages/otros/nosotros.html"
                   >Sobre Nosotros
                   <i class="bi bi-person-rolodex logo__header"></i
                 ></a>
               </li>
+              <!-- Enlace a la página de contacto -->
               <li class="nav-item">
                 <a class="nav-link" href="/pages/otros/contacto.html"
                   >Contacto<i class="bi bi-telephone-fill logo__header"></i
                 ></a>
               </li>
+              <!-- Enlace a la página de información -->
               <li class="nav-item">
                 <a class="nav-link" href="/pages/otros/info.html"
                   >Información<i class="bi bi-info-circle-fill logo__header"></i
                 ></a>
               </li>
+              <!-- Menú desplegable de categorías -->
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -114,6 +123,7 @@
                 <ul
                   class="dropdown-menu dropdown-menu-dark dropdown-menu-black"
                 >
+                  <!-- Enlace a la página de deportivos -->
                   <li>
                     <a
                       class="dropdown-item"
@@ -123,6 +133,7 @@
                       ></i>
                     </a>
                   </li>
+                  <!-- Enlace a la página de exclusivos -->
                   <li>
                     <a
                       class="dropdown-item"
@@ -132,7 +143,7 @@
                       ></i
                     ></a>
                   </li>
-
+                  <!-- Enlace a la página de vehículos nuevos -->
                   <li>
                     <a
                       class="dropdown-item"
@@ -142,7 +153,7 @@
                       ></i>
                     </a>
                   </li>
-
+                  <!-- Enlace a la página de vehículos usados -->
                   <li>
                     <a
                       class="dropdown-item"
@@ -152,7 +163,7 @@
                       ></i>
                     </a>
                   </li>
-
+                  <!-- Enlace a la página de pick-ups -->
                   <li>
                     <a
                       class="dropdown-item"
@@ -160,7 +171,7 @@
                       >Pick-Ups<i class="bi bi-boxes logo__header-dropdown"></i>
                     </a>
                   </li>
-
+                  <!-- Enlace a la página de SUVs y 4x4 -->
                   <li>
                     <a
                       class="dropdown-item"
@@ -179,6 +190,7 @@
     </header>
     <!-- !Header -->
 
+    <!-- Sección principal de información -->
     <main class="mainInfo">
       <div class="mainInfo__container-text">
         <h1>INFORMACIÓN</h1>
@@ -186,8 +198,10 @@
       </div>
     </main>
 
+    <!-- Sección de preguntas frecuentes -->
     <section class="preguntas">
       <div class="accordion accordion-flush" id="accordionFlushExample">
+        <!-- Pregunta 1 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -215,6 +229,7 @@
             </div>
           </div>
         </div>
+        <!-- Pregunta 2 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -243,6 +258,7 @@
             </div>
           </div>
         </div>
+        <!-- Pregunta 3 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -270,6 +286,7 @@
             </div>
           </div>
         </div>
+        <!-- Pregunta 4 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -297,6 +314,7 @@
             </div>
           </div>
         </div>
+        <!-- Pregunta 5 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -324,6 +342,7 @@
             </div>
           </div>
         </div>
+        <!-- Pregunta 6 -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
@@ -354,10 +373,10 @@
       </div>
     </section>
 
+    <!-- Sección de contacto -->
     <section class="contacto">
       <div class="contacto__container-text">
         <h3>¿No resolvimos tu duda?</h3>
-
         <div class="contacto__container-btn">
           <button class="contacto__btn">
             <a class="contacto__btn-a" href="/pages/otros/contacto.html"
@@ -368,35 +387,41 @@
       </div>
     </section>
 
-    <!-- !Categorias -->
+    <!-- Sección de categorías -->
     <section class="categorias">
       <h2 class="categorias__title">CATEGORÍAS</h2>
       <div class="categorias__container">
+        <!-- Enlace a la página de vehículos nuevos -->
         <a
           href="/pages/categorias/nuevos.html"
           class="categorias__container-link"
           >NUEVOS</a
         >
+        <!-- Enlace a la página de vehículos usados -->
         <a
           href="/pages/categorias/usados.html"
           class="categorias__container-link"
           >USADOS</a
         >
+        <!-- Enlace a la página de SUVs y 4x4 -->
         <a
           href="/pages/categorias/suv-4x4.html"
           class="categorias__container-link"
           >SUVs Y 4x4</a
         >
+        <!-- Enlace a la página de pick-ups -->
         <a
           href="/pages/categorias/pick-ups.html"
           class="categorias__container-link"
           >PICK-UPS</a
         >
+        <!-- Enlace a la página de deportivos -->
         <a
           href="/pages/categorias/deportivos.html"
           class="categorias__container-link"
           >DEPORTIVOS</a
         >
+        <!-- Enlace a la página de exclusivos -->
         <a
           href="/pages/categorias/exclusivos.html"
           class="categorias__container-link"
@@ -406,7 +431,7 @@
     </section>
     <!-- !Categorias -->
 
-    <!-- !Footer -->
+    <!-- Footer -->
     <footer class="footer">
       <img
         src="/img/SOLO LA F.png"
@@ -414,16 +439,19 @@
         class="footer__image"
       />
       <div class="footer__socials">
-        <!-- !Footer Redes -->
+        <!-- Enlace a Instagram -->
         <a href="http://www.instagram.com/" class="footer__socials-link"
           ><i class="bi bi-instagram"></i
         ></a>
+        <!-- Enlace a X (Twitter) -->
         <a href="http://www.x.com/" class="footer__socials-link"
           ><i class="bi bi-twitter-x"></i
         ></a>
+        <!-- Enlace a YouTube -->
         <a href="http://www.youtube.com/" class="footer__socials-link"
           ><i class="bi bi-youtube"></i
         ></a>
+        <!-- Enlace a WhatsApp -->
         <a href="http://www.whatsapp.com/" class="footer__socials-link"
           ><i class="bi bi-whatsapp"></i
         ></a>

@@ -48,6 +48,22 @@
   pointer-events: none;
 }
 
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+  .construccion {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .construccion__title {
+    font-size: 20px;
+  }
+
+  .construccion__text {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 768px) {
   .construccion {
     width: 50%;
